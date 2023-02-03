@@ -1,0 +1,62 @@
+
+.updated-card-main{
+
+    display: flex;
+    border: 2px solid #EFF2F7; 
+    border-radius: 8px;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+
+
+    .updated-logo-heading,.updated-plan-type,.updated-rate,.updated-button{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-div{
+        width: 60%;
+        margin: 0 auto;
+        height: 50%;
+        
+    }
+    
+    .updated-heading{
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .updated-plan-name{
+        font-weight: 700;
+   
+    }
+
+    .updated-plan{
+        font-weight: 600;
+        opacity: 0.8;
+    }
+
+.monitoring{
+    font-weight: bold;
+    font-size: 32px;
+}
+.month{
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.sup{
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+
+}
+.security-card-button{
+    font-size: 14px !important;
+    text-transform: none !important;
+}
+}

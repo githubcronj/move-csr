@@ -1,0 +1,36 @@
+.workflowButtonFlexDiv {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0 auto;
+  width: fit-content;
+  padding: 10px 0px;
+  box-shadow: 5px 10px 18px rgb(12 21 46 / 20%);
+  border-radius: 32px;
+  background-color: #ffffff;
+}
+.position1 {
+  position: fixed;
+  top: 85%;
+  left: 50%;
+}
+.position2 {
+  position: fixed;
+  top: 85%;
+  left: 36%;
+}
+.workflowButtonDiv {
+  margin: 0 10px;
+
+  .Button1 {
+    width: 200px;
+    border: 1px solid #a7a7a7 !important;
+    border-radius: 32px !important;
+    text-transform: capitalize !important;
+  }
+  .Button2 {
+    width: 200px;
+    border: 1px solid #465b74 !important;
+    border-radius: 32px !important;
+    text-transform: capitalize !important;
+  }
+}

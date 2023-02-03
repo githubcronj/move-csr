@@ -1,0 +1,131 @@
+.CommonCardDiv {
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-start;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #eff2f7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 16px 25px 10px 25px;
+  margin-top: 10px;
+  position: relative;
+  .checkBox {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    .colorchange {
+      .MuiSvgIcon-root {
+        fill: green !important;
+      }
+    }
+    .colorchangegrey {
+      .MuiSvgIcon-root {
+        fill: grey !important;
+      }
+    }
+    label {
+      transform: scale(1) !important;
+    }
+    // .checkbox-inside {
+    //   align-items: flex-end !important;
+    //   display: flex !important;
+    //   justify-content: flex-end !important;
+    // }
+  }
+
+  .CommonCardImgDiv {
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11px;
+
+    img {
+      width: 64px;
+      height: 64px;
+
+      @media (max-width: 1440px) {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    .sideTitle {
+      font-weight: 600;
+    }
+  }
+
+  .CommonCardText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: left;
+    color: #0c152e;
+    // margin-bottom: 20px;
+    height: 40px;
+    text-align: center;
+
+    .MuiFilledInput-underline:before,
+    .MuiFilledInput-underline::after {
+      border-bottom: none !important;
+    }
+    .MuiInputLabel-filled.MuiInputLabel-shrink {
+      z-index: 1 !important;
+      color: #6b6c6f;
+
+      @media (max-width: 768px) {
+        font-size: 12px !important;
+      }
+    }
+    .MuiFormLabel-root.Mui-focused {
+      color: #006df5;
+    }
+
+    .MuiFormControl-root {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    .MuiFilledInput-root {
+      width: 100%;
+      background-color: #fff !important;
+      border: 1px solid #eff2f7;
+      border-radius: 5px;
+    }
+
+    .MuiFilledInput-root.Mui-focused {
+      width: 100%;
+      background-color: #fff !important;
+      border: 1px solid #006df5;
+      border-radius: 5px;
+    }
+    .MuiFilledInput-input {
+      padding: 5px 0px 10px;
+      font-size: 10px;
+    }
+  }
+  .CommonButtonDiv {
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 16px;
+      text-transform: none;
+      border-radius: 4px;
+    }
+  }
+}
+.Selected {
+  border: 2px solid #408867;
+}
+.notSelected {
+  border: 2px solid #b7b8be;
+}

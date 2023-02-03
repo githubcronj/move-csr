@@ -1,0 +1,460 @@
+.FirstModal {
+  width: 500px;
+  margin: auto 0;
+  position: fixed;
+  top: 30%;
+
+  .FirstModal-main {
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+    .circle-icon {
+      display: flex;
+      justify-content: center;
+    }
+
+    .OpenModal-job {
+      font-weight: bold;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .order-confirmation-number {
+      font-weight: 600;
+      font-size: 18px;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .OrderSaveButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        width: 128px;
+        height: 40px;
+        border-radius: 32px !important;
+        background: #465b74 !important;
+        color: #ffffff !important;
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: capitalize;
+        margin-right: 20px;
+      }
+      margin: 20px 0;
+    }
+
+    .add-new-account {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .select-brokerage {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    .dropdown-div {
+      width: 55%;
+      .MuiAutocomplete-inputRoot {
+        padding: 0px;
+      }
+    }
+
+    .continue-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+      .Button1 {
+        width: 200px;
+        border: 1px solid #a7a7a7 !important;
+        border-radius: 32px !important;
+        text-transform: capitalize !important;
+      }
+    }
+    .searchDropdown .MuiOutlinedInput-input {
+      padding: 8.5px 14px;
+    }
+  }
+
+  .SecondModal-main {
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+    .personal-details-heading {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.SecondModal {
+  width: 700px;
+  margin: auto 0;
+  position: fixed;
+  top: 10%;
+  max-height: 80vh;
+  overflow: auto;
+
+  .difference-div {
+    padding: 5px 0;
+    font-size: 12px;
+  }
+
+  .MuiFilledInput-root {
+    width: 100%;
+    border: 1px solid #6b6c6f;
+    border-radius: 5px;
+    background: none !important;
+    transition: none;
+  }
+
+  .MuiFormControl-root {
+    width: 100% !important;
+    transition: none;
+  }
+
+  .MuiFilledInput-root.Mui-focused {
+    border-color: #0066f5 !important;
+  }
+
+  .MuiInputLabel-filled.MuiInputLabel-shrink.Mui-focused {
+    color: #0066f5 !important;
+  }
+  .secondModal-main {
+    background: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    .modal-input .MuiFormControl-root {
+      width: 100%;
+    }
+    .modal-input .MuiFilledInput-root,
+    .modal-input .MuiFilledInput-root:hover {
+      border: 1px solid #e0e0e0;
+      background-color: #ffffff;
+    }
+    .modal-input .MuiFilledInput-input {
+      padding: 20px 12px 10px;
+      font-weight: lighter;
+    }
+
+    .personal-details-heading {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .firstname-lastname {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .label-name {
+      font-size: 12px;
+      padding: 10px 0;
+      font-weight: bold;
+    }
+
+    .input-div {
+      width: 48%;
+    }
+    .moving-details {
+      padding-top: 20px;
+      .moveFrom {
+        font-size: 12px;
+        padding: 10px 0;
+        font-weight: bold;
+      }
+
+      .autocomplete-icon-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .address-icon {
+          width: 10%;
+          margin-top: 10px;
+        }
+        .autocomplete {
+          width: 90%;
+        }
+      }
+    }
+    .modal-input .MuiInput-underline:before {
+      border: none !important;
+    }
+    .modal-input .MuiInput-underline:after {
+      border: none !important;
+    }
+
+    .date-picker-div {
+      width: 100% !important;
+      background: white;
+      border: 1px solid #6b6c6f;
+      border-radius: 5px;
+      padding: 0px 10px;
+    }
+
+    .continue-button {
+      display: flex;
+
+      margin: 40px 0 20px 0;
+      .Button2 {
+        width: 200px;
+        border: 1px solid #e6e8eb !important;
+        border-radius: 32px !important;
+        text-transform: capitalize !important;
+      }
+    }
+  }
+}
+
+.Header-main {
+  width: 100%;
+  padding: 10px 5px 10px 20px;
+  // box-shadow: 0px 4px 4px #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  font-family: "Lato", sans-serif;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+
+  .BackNavigation {
+    display: flex;
+    align-items: center;
+
+    .backIcon {
+      margin-right: 15px;
+      cursor: pointer;
+    }
+
+    .wrapDiv {
+      text-align: left;
+      margin-right: 30px;
+      .goBackText {
+        font-size: 8px;
+        line-height: 9px;
+        font-weight: 700;
+        color: #333333;
+        letter-spacing: 0.8px;
+        padding-bottom: 6px;
+        text-transform: uppercase;
+      }
+
+      .goBackSubText {
+        font-size: 11px;
+        line-height: 12px;
+        font-weight: 700;
+        color: #333333;
+      }
+    }
+  }
+}
+.dollar-heading-wrapper {
+  display: flex;
+}
+.dollar-div-outer {
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 4px 4px #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.dollar-div {
+  // width: 20px;
+  // height: 20px;
+
+  // border-radius: 50%;
+  .MuiSvgIcon-root {
+    color: #75ba9f !important;
+  }
+}
+
+.refresh-div-outer {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 4px 4px #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+
+  .refresh-div {
+    .refreshIcon {
+      color: #75ba9f !important;
+    }
+  }
+}
+
+.commission-wrapper {
+  padding: 10px 20px;
+  text-align: left;
+}
+.commission {
+  font-size: 9px;
+  line-height: 9px;
+}
+
+.commission-figure {
+  font-size: 9px;
+  line-height: 9px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.notification-text-wrapper {
+  display: flex;
+
+  .new-account-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    .new-account {
+      background: #eab04e !important;
+      font-size: 10px !important;
+      color: #333 !important;
+    }
+  }
+}
+.message-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.message-icon {
+  padding: 0 7px;
+  display: flex;
+}
+
+.notification-number-div {
+  height: 15px;
+  width: 15px;
+  font-size: 9px;
+  color: #fff;
+  background-color: #f29f47;
+  border-radius: 50%;
+  margin-top: 6%;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  color: #75ba9f;
+  cursor: pointer;
+}
+
+.noShowModal {
+  width: 500px;
+  margin: auto 0;
+  position: fixed;
+  top: 30%;
+
+  .noShowModal-main {
+    background: #fff;
+
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .noShow-heading {
+      font-size: 24px;
+      font-weight: 600;
+      padding: 20px 0;
+    }
+
+    .noShow-content {
+      padding: 0 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+    .timer-div-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      width: 60%;
+
+      .first-div {
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .second-div {
+        .timer {
+          font-size: 32px;
+          font-weight: bold;
+          color: red;
+        }
+      }
+    }
+
+    .noShow-button {
+      padding: 20px 0;
+      .Button1 {
+        width: 200px;
+        border: 1px solid #a7a7a7 !important;
+        border-radius: 32px !important;
+        text-transform: capitalize !important;
+      }
+    }
+  }
+}
+
+.timer-div {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+    0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+    0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+
+  .first-div {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+.progressStep {
+  font-size: 15px;
+  line-height: 16px;
+  color: #6b6c6f;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.name-left-text {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}

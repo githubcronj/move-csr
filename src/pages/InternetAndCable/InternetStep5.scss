@@ -1,0 +1,60 @@
+.internetStep5 {
+  margin: 20px 0;
+}
+
+.communicationsIcon {
+  width: 20px;
+}
+
+.filters {
+  width: 25%;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 5%;
+  right: 100px;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+
+  // .left{
+  //     width: 40%;
+  // }
+
+  // .right{
+  //     width: 40%;
+  //   display: flex;
+  //   justify-content: flex-end;
+
+  // }
+}
+.filters-main-outer {
+  width: 25%;
+  position: fixed;
+  right: 100px;
+  top: 200px;
+  z-index: 200;
+}
+
+.filters-div {
+  font-weight: bold;
+  display: flex;
+  text-decoration: underline;
+}
+
+.expandIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #ecf7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.point-content-padding {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,71 @@
+.second-card-main {
+  border: 2px solid #eff2f7;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  min-height: 200px;
+
+  @media (max-width: 1500px) {
+    min-height: 225px;
+  }
+
+  .main-body-second {
+    .logo-div-second {
+      width: 50%;
+      height: 60px;
+      margin: auto;
+    }
+
+    .logo-second {
+      width: 100%;
+      height: 100%;
+    }
+
+    .title-second {
+      text-align: left;
+      font-weight: 700;
+      padding: 20px 0 0 0;
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+
+    .sub-title-second {
+      font-weight: bold;
+      font-size: 15px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    .phone-second {
+      display: flex;
+      align-items: center;
+    }
+    .phone-icon-second .MuiSvgIcon-root {
+      height: 15px;
+      width: 15px;
+      opacity: 0.6;
+    }
+
+    .phone-icon-second {
+      padding-right: 5px;
+    }
+    .phone-number-second {
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .phone-second {
+      display: flex;
+    }
+    .email-second {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 0;
+    }
+  }
+
+  .LanchButton {
+    margin-top: 10px;
+  }
+}

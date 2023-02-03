@@ -1,0 +1,195 @@
+.LeftPanel {
+  // width: 344px;
+  width: 100%;
+  background: #f9f9f9;
+  // max-height: 85vh;
+  // overflow-y: auto;
+
+  // &::-webkit-scrollbar {
+  //   width: 4px;
+  //   height: 3px;
+  //   border-radius: 5px !important;
+  // }
+
+  // &::-webkit-scrollbar-track {
+  //   background: rgb(246, 245, 245);
+  // }
+
+  // /* scrollbar handle */
+  // &::-webkit-scrollbar-thumb {
+  //   background-color: #d8dadd;
+  // }
+
+  .LeftPanelCompos {
+    margin-left: 19px;
+
+    // .Candidate {
+    //   display: flex;
+    //   flex-direction: row;
+    //   align-items: center;
+    //   margin: 0px 0px 25px 0px;
+    //   padding-top: 25px;
+
+    //   .ShortForm {
+    //     height: 40px;
+    //     width: 40px;
+    //     left: 0px;
+    //     top: 0px;
+    //     border-radius: 4px;
+    //     background: #fffdf4;
+    //     color: #f4ae33;
+    //   }
+    //   .CandidateName {
+    //     display: flex;
+    //     flex-direction: column;
+    //     margin-left: 14px;
+    //     .CustomerOverview {
+    //       font-family: "Lato", sans-serif;
+    //       font-style: normal;
+    //       font-weight: 600;
+    //       font-size: 15px;
+    //       line-height: 16px;
+    //       color: #0c152e;
+    //       text-align: left;
+    //       margin-bottom: 4px;
+    //     }
+    //     .CustomerContact {
+    //       font-family: Inter;
+    //       font-size: 12px;
+    //       font-style: normal;
+    //       font-weight: 400;
+    //       line-height: 12px;
+    //       letter-spacing: 0em;
+    //       text-align: left;
+    //     }
+    //     .BtnStyle {
+    //       width: 47px;
+    //       height: 16px;
+    //       font-size: 9px;
+    //       background: #f4ae33;
+    //       border-radius: 2px;
+    //       border: none;
+    //       color: #ffffff;
+    //       text-align: left;
+    //       text-transform: uppercase;
+    //       margin-left: 8px;
+    //     }
+    //   }
+    //   .ellipse {
+    //     margin-left: 14px;
+    //   }
+    //   .ellipsecolor {
+    //     color: black;
+    //     background: #ebf7fb;
+    //     font-size: 11px;
+    //     height: 20px;
+    //     width: 28px;
+
+    //     border-radius: 0px;
+    //     text-align: center;
+    //   }
+    //   .icon-div {
+    //     width: 30px;
+    //     height: 30px;
+    //     cursor: pointer;
+    //     box-shadow: 0px 4px 4px #eee;
+    //     border-radius: 2px;
+    //     border: 1px solid #e0e0e0;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     .MuiSvgIcon-root {
+    //       height: 20px;
+    //       width: 20px;
+    //     }
+    //   }
+    // }
+
+    .LeftPanelYourCustomer {
+      font-family: Inter;
+      font-weight: bold;
+      font-size: 9px;
+      font-weight: 700;
+      line-height: 110%;
+      margin-top: 20px;
+      letter-spacing: 5%;
+
+      color: #0c152e;
+      margin-bottom: 13px;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+
+      .EditBtnStyle {
+        width: 47px;
+        margin-right: 25px;
+        height: 18px;
+        padding: 5px 0;
+        font-size: 9px;
+        background: #f4ae33;
+        border-radius: 2px;
+        border: none;
+        color: #3e3c3c;
+        text-align: center;
+        text-transform: uppercase;
+        cursor: pointer;
+        .EditImg {
+          margin-left: 2px;
+          height: 10px;
+          width: fit-content;
+        }
+      }
+    }
+
+    .LeftPanelCustomerNotes {
+      font-family: Lato;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-bottom: 4px;
+      .BtnStyle {
+        width: 47px;
+        height: 16px;
+        font-size: 9px;
+        background: #f4ae33;
+        border-radius: 2px;
+        border: none;
+        color: #3e3c3c;
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 8px;
+      }
+    }
+    .LeftPanelCommonMargin {
+      margin-bottom: 13px;
+    }
+  }
+  .seconadaryContactDetails {
+    background: #ffffff;
+    padding: 20px;
+    margin-right: 19px;
+
+    .LeftPanelYourCustomer {
+      margin-top: 0;
+
+      .EditBtnStyle {
+        margin-right: 0px;
+      }
+    }
+
+    .secondarycontactdetailsFlexDiv {
+      display: flex;
+      margin: 5px 0;
+      color: #0c152e;
+      font-size: 15px;
+
+      .icon .MuiSvgIcon-root {
+        font-size: 17px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

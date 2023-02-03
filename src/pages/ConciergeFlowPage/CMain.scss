@@ -1,0 +1,148 @@
+.conciergeFlowMainPage {
+  width: 94%;
+
+  .conciergeFlexDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    // max-height: 100px;
+
+    .conciergeLeftDiv {
+      width: 30%;
+      padding: 0 25px;
+    }
+    .Candidate {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 0px 0px 25px 0px;
+      padding-top: 25px;
+      justify-content: space-between;
+
+      .ShortForm {
+        height: 38px;
+        width: 40px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        background: #fffdf4;
+        color: #f4ae33;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px, 0.45px rgba(12, 21, 46, 0.0417);
+      }
+      .CandidateName {
+        display: flex;
+        flex-direction: column;
+        margin-left: 14px;
+        .CustomerOverview {
+          font-family: "Lato", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 16px;
+          color: #0c152e;
+          text-align: left;
+          margin-bottom: 4px;
+        }
+        .CustomerContact {
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 12px;
+          letter-spacing: 0em;
+          text-align: left;
+          // color: #ffffff;
+          display: flex;
+          .EditImg {
+            margin-left: 2px;
+            height: 10px;
+            width: fit-content;
+          }
+        }
+        .BtnStyle {
+          width: 47px;
+          height: 16px;
+          font-size: 9px;
+          background: #f4ae33;
+          border-radius: 2px;
+          border: none;
+          color: #3e3c3c;
+          text-align: left;
+          text-transform: uppercase;
+          margin-left: 8px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+      }
+      .ellipse {
+        margin-left: 14px;
+      }
+      .ellipsecolor {
+        color: black;
+        background: #ebf7fb;
+        font-size: 14px;
+        // height: 20px;
+        // width: 28px;
+        border-radius: 50%;
+        padding: 8px 15px;
+        text-align: center;
+      }
+      .icon-div {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px #eee;
+        border-radius: 2px;
+        border: 1px solid #e0e0e0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .MuiSvgIcon-root {
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+
+    .conciergeMainTabDiv {
+      width: 70%;
+    }
+
+    .leftPanelDiv {
+      width: 28%;
+    }
+
+    .conciergeRightContentDiv-fullWidth {
+      width: 100%;
+      min-height: 100vh;
+      padding: 20px 50px 80px;
+      background: #ffffff;
+      box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+        0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+        0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+      border-radius: 16px 16px 0px 0px;
+      margin-left: 20px;
+
+      @media (max-width: 1024px) {
+        width: 95%;
+      }
+    }
+    .conciergeRightContentDiv {
+      width: 70%;
+      // height: 100vh;
+      background: #ffffff;
+      padding: 20px 20px 80px;
+      box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+        0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+        0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+      border-radius: 4px 4px 0px 0px;
+      min-height: 100vh;
+      // min-height: 600px;
+    }
+  }
+}

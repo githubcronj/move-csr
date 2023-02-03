@@ -1,0 +1,315 @@
+.RightSideNav-main {
+  height: auto;
+  width: auto;
+  box-shadow: 0px 4px 4px #eee;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  min-height: 94vh;
+}
+
+.rbc-month-row {
+  flex-basis: 100px !important;
+}
+
+.icon-div-outer {
+  width: 60px;
+  height: 60px;
+  //    box-shadow: 0px 4px 4px #eee;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.icon-div-outer-active {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-content-body {
+  box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+    0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+    0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+  border-radius: 4px 4px 0px 0px;
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  padding: 10px;
+  min-height: 100vh;
+
+  .buttonCalenderDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eff2f7;
+    margin-bottom: 25px;
+
+    .calenderButton {
+      width: 45%;
+      padding: 12px 16px;
+      border: 1px solid #eff2f7;
+      border-radius: 4px;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    .active-calenderButton {
+      width: 45%;
+      padding: 12px 16px;
+      border: 1px solid #ecf7fb;
+      border-radius: 4px;
+      background: #ecf7fb;
+      cursor: pointer;
+    }
+
+    .backArrow {
+      background: #ecf7fb;
+      border-radius: 4px;
+    }
+  }
+}
+
+.icon-div {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px #eee;
+  border-radius: 2px;
+  // border: 1px solid #E0E0E0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .MuiSvgIcon-root {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.icon-div-help {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px #eee;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  background: #5cbd9d;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  .MuiSvgIcon-root {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.icon-div-active {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  box-shadow: 0px 4px 4px #eee;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+  justify-content: center;
+  align-items: center;
+  background: #3c7084;
+  cursor: pointer;
+  .MuiSvgIcon-root {
+    color: #fff;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.open-right-div {
+  width: 350px;
+}
+
+.open-top-content-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.top-heading {
+  font-size: 12px;
+  font-weight: 700;
+}
+.bottom-heading {
+  font-size: 9px;
+}
+
+.open-text {
+  text-align: left;
+}
+
+.button-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.assignment-div {
+  padding: 0 10px;
+}
+
+.top-button-active {
+  color: #fff !important;
+  background: #3c7084 !important ;
+  width: 28%;
+  height: 40px;
+  font-size: 12px !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+}
+
+.top-button {
+  color: #333 !important;
+  background: #fff !important ;
+  width: 28%;
+  height: 40px;
+  font-size: 12px !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+  border: 1px solid #333 !important;
+}
+
+.task-div {
+  padding: 20px 0;
+  margin: 10px 0;
+}
+
+.task-main {
+  margin: 10px 0;
+}
+
+.help-div-main {
+  // padding: 20px 0;
+  margin: 10px 0;
+  .MuiAutocomplete-inputRoot {
+    padding: 0 !important;
+  }
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+    .MuiAutocomplete-inputRoot {
+    padding-right: 25px !important;
+  }
+}
+
+.help-content-div {
+  margin-top: 20px;
+}
+
+.help-card {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.heading-card {
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.content-card {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.help-card-button {
+  text-transform: none !important;
+  color: #333 !important;
+  background: #fff !important;
+  border: 1px solid #e6e8eb !important;
+  font-size: 12px !important;
+}
+
+.customerNotes-main-div {
+  .notesDiv {
+    .note-div {
+      margin-bottom: 30px;
+
+      .noteTitle {
+        font-size: 17px;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 17px;
+      }
+
+      .dateFlexDiv {
+        display: flex;
+        margin-bottom: 20px;
+
+        .noteImageDiv {
+          background: #ecf7fb;
+          border-radius: 8px;
+          padding: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 20px;
+
+          .icon {
+            fill: #52bde6;
+          }
+        }
+
+        .dayDateDiv {
+          font-size: 13px;
+          line-height: 12px;
+          font-weight: bold;
+          color: #0c152e;
+          text-align: left;
+
+          .dayDiv {
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .notePara {
+        font-size: 15px;
+        line-height: 16px;
+        color: #0c152e;
+        text-align: left;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+.warmTransferMain-div {
+  .warmTransferFlexDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #415b76;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 15px 0;
+    align-items: center;
+
+    .title {
+      font-size: 15px;
+      line-height: 16px;
+      font-weight: bold;
+      text-align: left;
+
+      .phoneDiv {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+    }
+
+    .arrowDiv {
+      background: #ffffff;
+      color: #465b74;
+      border-radius: 4px;
+      padding: 5px;
+    }
+  }
+}

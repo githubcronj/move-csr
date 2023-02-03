@@ -1,0 +1,72 @@
+.MainCardDivUtilties {
+  width: 100%;
+  border-radius: 8px;
+  padding: 20px;
+  min-height: 267px;
+
+  .icon-div-utilities1 {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+  }
+
+  .title-div-utilities1 {
+    padding: 20px 0 5px 0;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+
+  .subtitle-div-utilities1 {
+    padding: 0 0 5px 0;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .phone-first {
+    display: flex;
+    align-items: center;
+    // margin-bottom: 10px;
+  }
+  .phone-icon-first .MuiSvgIcon-root {
+    height: 15px;
+    width: 15px;
+    opacity: 0.6;
+  }
+
+  .phone-icon-first {
+    padding-right: 5px;
+  }
+  .phone-number-first {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .buttons-utilities1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .selectButton1 {
+    text-transform: none !important;
+    min-width: fit-content;
+    margin-top: 10px;
+    padding: 7px 12px !important;
+    font-weight: 700;
+    font-size: 11px;
+    font-family: Lato;
+  }
+
+  .selectButton2 {
+    text-transform: none !important;
+    margin: 10px 20px 0px !important;
+    min-width: fit-content;
+    padding: 7px 12px !important;
+    font-weight: 700;
+    font-size: 11px;
+    font-family: Lato;
+  }
+}

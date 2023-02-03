@@ -1,0 +1,113 @@
+.security-card-main{
+    border: 2px solid #EFF2F7; 
+    border-radius: 8px;
+    .security-card-upper-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px ;
+       
+    }
+    .security-card-title-div,.security-card-rate-outer,.security-card-price-div{
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .security-card-title-div{
+      font-size: 15px;
+      font-weight: bold;
+     
+    }
+
+    .security-card-line-div{
+        height: 2px;
+        background:#EFF2F7 ;
+       width: 95%;
+       margin: 0 auto 20px auto;
+    }
+
+
+
+    .security-card-rating-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFE277;
+        width: 80px;
+        height: 40px;
+       border-radius: 8px;
+       margin-bottom: 10px;
+
+    }
+
+    .security-card-rate{
+        padding:0 2px;
+    }
+
+    .rate-given{
+       font-weight: bold;
+    }
+
+    .rate-total{
+       font-size: 12px;
+       margin-top: -5px;
+    }
+
+    .security-card-price-div{
+        flex-direction: column;
+    }
+
+    .upper-price{
+        display: flex;
+        justify-content: center;
+    }
+    .price{
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .currency{
+        font-size: 14px;
+    }
+
+    .lower-plan{
+        font-size: 14px;
+        opacity: 0.8;
+    }
+
+    .security-card-lower-div{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 40px 20px 40px;
+    }
+
+    .heading-info,.lower-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lower-heading{
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .security-card-button{
+        font-size: 14px !important;
+        text-transform: none !important;
+    }
+    .contract-param,.monitoring,.equipment{
+        font-weight: bold;
+    }
+    .month{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .sup{
+        font-weight: 700;
+    }
+    
+}

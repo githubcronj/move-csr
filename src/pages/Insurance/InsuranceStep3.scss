@@ -1,0 +1,146 @@
+.insurance3-main {
+  padding: 20px;
+
+  .insurance3-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .insurance3 {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .titleNumberInsurance {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .point-content-wrapper-insurance3 {
+    display: flex;
+    justify-content: left;
+    min-height: 60px;
+  }
+  .point-content-wrapper-insurance3-script {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+  }
+  .helpful-div-mover {
+    margin-bottom: 25px;
+  }
+
+  .points-div-insurance3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vertical-line-insurance3 {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point-insurance3 {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-insurance3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-insurance3 {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .helpful-div-insurance {
+    margin-bottom: 35px;
+  }
+
+  .InputflexDiv {
+    display: flex;
+    justify-content: space-between;
+    .inputDiv .MuiFormControl-root {
+      width: 100%;
+    }
+    .inputDiv .MuiFilledInput-root {
+      background: none;
+      border: 1px solid #3c7084;
+      border-radius: 4px;
+    }
+
+    .inputDiv .MuiFilledInput-underline:before,
+    .inputDiv .MuiFilledInput-underline:after {
+      border-bottom: none !important;
+    }
+
+    .leftDiv,
+    .rightDiv {
+      width: 50%;
+      text-align: left;
+    }
+
+    .rightDiv .inputMainDiv {
+      // border-radius: 8px;
+      // border: 1px solid #333333;
+      padding: 20px;
+    }
+
+    .leftDiv .inputMainDiv {
+      padding: 0px 50px 20px 0;
+    }
+
+    .heading {
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: bold;
+      margin: 25px 0;
+    }
+  }
+
+  .error {
+    height: 20px;
+    margin-left: 64px;
+    margin-top: -18px;
+    margin-bottom: 20px;
+    color: red;
+  }
+}

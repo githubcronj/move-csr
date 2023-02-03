@@ -1,0 +1,229 @@
+.animationDiv {
+  animation: myfirst 2s;
+  // position: relative;
+  animation-timing-function: ease;
+}
+
+@keyframes myfirst {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.summary-first-card {
+  width: 50%;
+  margin-top: 20px;
+}
+.summary-main {
+  padding: 20px;
+
+  .helpful-div-homePros {
+    margin-bottom: 25px;
+  }
+
+  .summary-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .summary {
+    padding-right: 10px;
+    color: #0f3f2f;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .point-content-wrapper-summary {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+  }
+
+  .points-div-summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .point-content-summary-title {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+  .point-content-summary-para {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+
+    .highlighted-text {
+      background: #ecf7fb;
+      border-radius: 2px;
+      font-weight: bold;
+      padding: 0 5px;
+    }
+  }
+
+  .vertical-line-summary {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point-summary {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-summary {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-summary {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+
+.summarymaindiv {
+  display: none;
+  background-image: linear-gradient(#def2eb, #edf7ee, #ffffff);
+
+  .summaryTitle {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #246f56;
+    margin-bottom: 20px;
+  }
+  .summarySubTitle {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #0f3f2f;
+  }
+
+  .summaryImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    animation: myfirst2 2s;
+    // position: relative;
+    animation-timing-function: ease;
+
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  @keyframes myfirst2 {
+    0% {
+      transform: rotate(-45deg);
+      opacity: 0.5;
+      // transform: scale(0.5);
+    }
+    100% {
+      transform: rotate(360deg);
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .unitsCommissionFlexDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .unitsCommissionDiv {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      border-radius: 8px;
+      box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+        0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+        0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+
+      .unitsDiv {
+        width: 50%;
+        padding: 20px;
+
+        .unitsTitle {
+          font-size: 19px;
+          line-height: 18px;
+          font-weight: bold;
+          color: #b7b8be;
+          text-transform: uppercase;
+        }
+        .unitsNumber {
+          font-size: 32px;
+          line-height: 32px;
+          font-weight: bold;
+          color: #333333;
+          margin-top: 20px;
+        }
+      }
+
+      .commissionDiv {
+        width: 50%;
+        background: #5cbd9d;
+        border-radius: 0 8px 8px 0px;
+        padding: 20px;
+
+        .commissionTitle {
+          font-size: 19px;
+          line-height: 18px;
+          font-weight: bold;
+          color: #ffffff;
+          text-transform: uppercase;
+        }
+
+        .commissionNumber {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+          color: #ffffff;
+
+          .AmountDiv {
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: bold;
+          }
+          .dollorDiv {
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  .position2 {
+    left: 45%;
+  }
+}
+
+.OrderSummaryDiv {
+  margin-bottom: 50px;
+}

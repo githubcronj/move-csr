@@ -1,0 +1,10 @@
+export const GET_USERS = 'GET_USERS';
+export const GET_USERS_SUCCESS = 'GET_USERS_SUCCESS';
+export const GET_USERS_ERROR = 'GET_USERS_ERROR';
+
+
+// export const GET_SINGLE_USER = 'GET_SINGLE_USER';
+// export const GET_SINGLE_USER_SUCCESS = 'GET_SINGLE_USER_SUCCESS';
+// export const GET_SINGLE_USER_ERROR = 'GET_SINGLE_USER_ERROR';
+
+

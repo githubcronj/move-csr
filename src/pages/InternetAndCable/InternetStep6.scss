@@ -1,0 +1,84 @@
+.step6InsuranceCardDiv {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+}
+
+.step6FormDiv {
+  width: 60%;
+  margin: 20px 0;
+
+  .holdDataCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 1px 1px 10px 4px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+
+    .inputDiv {
+      margin-bottom: 20px;
+      width: 100%;
+
+      .saveButton {
+        border-radius: 32px;
+        padding: 6px 45px;
+      }
+
+      .title {
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.OpenModal {
+  width: 500px;
+  margin: auto 0;
+  position: fixed;
+  top: 30%;
+
+  .OpenModal-main {
+    background: #fff;
+    padding: 40px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .OpenModal-job {
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .order-confirmation-number {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .OrderSaveButton {
+    button {
+      width: 128px;
+      height: 40px;
+      border-radius: 32px !important;
+      // background: #465b74 !important;
+      color: #ffffff !important;
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 16px;
+      text-transform: capitalize;
+      margin-right: 20px;
+    }
+    margin: 20px 0;
+  }
+}

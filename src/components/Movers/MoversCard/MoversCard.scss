@@ -1,0 +1,72 @@
+.CardMainDiv {
+  border-radius: 8px;
+
+  .TopIconFlexDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+    .recommended {
+      font-size: 13px;
+      line-height: 16px;
+      font-weight: bold;
+      color: #ffffff;
+      background: #eab04e;
+      padding: 4px;
+      border: 2px solid #eab04e;
+      border-radius: 2px;
+    }
+  }
+
+  .contentDiv {
+    padding: 20px;
+    text-align: left;
+
+    @media(max-width:1600px){
+      padding: 10px;
+    }
+
+    .title {
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: bold;
+      letter-spacing: 17;
+      color: #0c152e;
+      padding: 10px 0;
+    }
+
+    .subTitle {
+      font-weight: Bold;
+      font-size: 11px;
+      line-height: 12px;
+      
+      .infoIcon {
+        color: #52bde6;
+        width: 15px;
+        margin-left: 10px;
+      }
+    }
+
+    .featuresDiv {
+      font-size: 13px;
+      line-height: 16px;
+      color: #333333;
+      padding-top: 5px;
+
+      .doneIcon {
+        margin-right: 10px;
+        color: #5cbd9d;
+      }
+    }
+
+    .buttonDiv {
+      margin-top: 20px;
+
+      .selectButton {
+        text-transform: capitalize;
+        width: 120px !important;
+      }
+    }
+  }
+}

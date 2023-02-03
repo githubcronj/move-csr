@@ -1,0 +1,207 @@
+.SecurityPersonalisedMain {
+  border-radius: 8px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid #eff2f7;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+
+  .title-logo-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-title {
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .top-labels {
+    border-radius: 50% !important;
+    margin: 0 5px !important;
+    border: 1px solid #e6e8eb;
+    background-color: #f9fbf6;
+    color: #333;
+    padding: 5px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .PersonalisedLogoButton {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    .Personalisedlogos {
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 16px;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+      }
+    }
+    .PersonalisedlogosText {
+      font-family: Lato;
+      font-size: 11px;
+      font-style: bold;
+      font-weight: 700;
+      line-height: 12px;
+      text-align: center;
+      span {
+        margin-left: 7px;
+      }
+    }
+  }
+  .SecurityBorderLine {
+    height: 1px;
+    background-color: #eff2f7;
+  }
+  .PersonalisedContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 32px;
+    width: 100%;
+    .PersonalisedMonitor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .MonitorStyling {
+        font-family: Lato;
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 8px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        margin-bottom: 6px;
+        .detailsIcon {
+          width: 15px;
+          height: 15px;
+          color: #6ebbe2;
+        }
+      }
+      .MonthlyCost {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        .UnitOf {
+          font-family: Lato;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 8px;
+        }
+      }
+      .MonthlyCostLast {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        .Dollar {
+          font-family: Lato;
+          font-size: 9px;
+          font-weight: 700;
+          line-height: 12px;
+          color: #333333;
+        }
+        .PriceMoney {
+          font-family: Lato;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 24px;
+        }
+        .MonthWrapper {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          .Value {
+            font-family: Lato;
+            font-size: 9px;
+            font-weight: 700;
+            line-height: 12px;
+          }
+          .monthTextDiv {
+            font-family: "Lato", sans-serif;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+          }
+        }
+      }
+      .MonitorUnits {
+        font-family: Lato;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 12px;
+        color: #333333;
+      }
+    }
+  }
+  .SecurityBorderLine {
+    height: 1px;
+    background-color: #eff2f7;
+  }
+  .PersonalisedCommunicationLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 16px;
+  }
+}
+
+.PlanButton {
+  button {
+    width: 100px !important;
+    border-radius: 4px !important;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 12px;
+  }
+}
+
+.PersonalisedLink {
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #52bde6;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.PersonalisedCommunication {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  button {
+    // background-color: #f9fbff !important;
+    border: 1px solid #e6e8eb;
+    border-radius: 16px;
+    font-family: Lato !important ;
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    // color: #333333 !important;
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,22 @@
+.sortByDiv {
+  display: flex;
+
+  .down-arrow {
+    background: #EFF2F7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+
+    .icon {
+      color: #52BDE6;
+    }
+  }
+  .avg-customer-review{
+    @media(max-width:1600px){
+   font-size: 14px !important;
+    }
+ }
+}

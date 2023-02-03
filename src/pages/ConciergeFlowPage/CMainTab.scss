@@ -1,0 +1,35 @@
+.MuiTabs-scrollable {
+  background: #ffffff !important;
+}
+
+.MuiTab-wrapper {
+  font-size: 15px;
+  line-height: 16px;
+  color: #333333;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Lato";
+}
+
+.MuiTab-textColorInherit.Mui-selected {
+  .MuiTab-wrapper {
+    color: #0c152e;
+  }
+}
+
+.MuiTabs-flexContainer {
+  justify-content: space-between !important;
+}
+
+.MuiPaper-root {
+  box-shadow: none !important;
+  border-bottom: 1px solid lightgray;
+}
+
+.MuiTabScrollButton-root {
+  display: none;
+}
+
+.MuiTab-root {
+  min-width: fit-content !important;
+}

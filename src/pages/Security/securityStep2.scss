@@ -1,0 +1,222 @@
+.security2-main {
+  padding: 20px;
+
+  .filters-main-outer {
+    width: 25%;
+    position: fixed;
+    right: 100px;
+    top: 200px;
+    z-index: 200;
+  }
+  .security2-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .security2 {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .titleNumberMover {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .main-bottom-security2 {
+    //    margin-top: 40px
+  }
+
+  .point-content-wrapper-security2 {
+    display: flex;
+    justify-content: left;
+    min-height: 70px;
+  }
+  .point-content-wrapper-security2-script {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+  }
+  .helpful-div-mover {
+    margin-bottom: 25px;
+  }
+
+  .points-div-security2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vertical-line-security2 {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point-security2 {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-security2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-security2 {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .top-3-heading {
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filters-div {
+    font-weight: lighter;
+    display: flex;
+  }
+
+  .expandIcon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #ecf7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .other-movers-heading {
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .top-div-topper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tabs-div-security2 {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    @media (max-width: 1800px) {
+      width: 60%;
+    }
+    @media (max-width: 1600px) {
+      width: 68%;
+    }
+    @media (max-width: 1200px) {
+      width: 80%;
+    }
+  }
+  .tab-movers-4 {
+    padding: 10px 40px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+
+    @media (max-width: 1366px) {
+      padding: 10px 20px;
+    }
+  }
+
+  .security2-item-heading {
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  .security-card {
+    margin: 20px 0;
+  }
+
+  .callBackSchedule {
+    text-align: left;
+    margin-left: 46px;
+    margin-top: 25px;
+
+    .scheduleText {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 25px;
+      color: #333333;
+      font-weight: 600;
+    }
+
+    .flexDiv {
+      display: flex;
+      margin: 10px 0;
+
+      .flexTitleDiv {
+        font-size: 17px;
+        line-height: 24px;
+        color: #333333;
+        font-weight: bold;
+        width: 180px;
+      }
+
+      .flexDetailDiv {
+        font-size: 17px;
+        line-height: 24px;
+        color: #333333;
+      }
+    }
+  }
+  .buttonDiv {
+    margin: 20px 0 50px;
+    display: flex;
+    // margin-left: 45px;
+
+    .editOrderButton,
+    .cancleOrderButton {
+      border-radius: 30px;
+      padding: 10px 20px;
+    }
+
+    .cancleOrderButton {
+      margin-left: 30px;
+      background-color: #ec6133 !important;
+    }
+  }
+}

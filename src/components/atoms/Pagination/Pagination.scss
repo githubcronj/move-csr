@@ -1,0 +1,36 @@
+.MuiPaginationItem-page.Mui-selected {
+  background-color: #6ebbe2 !important;
+  color: #333333 !important;
+}
+
+.MuiPaginationItem-outlined {
+  background-color: #eff2f7 !important;
+  color: #6b6c6f !important;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  .iconDiv {
+    cursor: pointer;
+
+    .paginationIcon {
+      background: #ecf7fb;
+      border-radius: 50%;
+      color: #52bde6;
+    }
+  }
+
+  .iconDivDisabled {
+    cursor: default;
+
+    .paginationIcon {
+      background: #ecf7fb;
+      border-radius: 50%;
+      color: #b2d8e7;
+    }
+  }
+}

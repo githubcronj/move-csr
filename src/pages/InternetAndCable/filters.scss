@@ -1,0 +1,132 @@
+.filters-heading {
+  display: flex;
+  background: #fff;
+  padding: 20px;
+  justify-content: space-between;
+  border: 2px solid #eff2f7;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  .filter-head {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .clear-head {
+    color: #0066f5;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.main-filters {
+  border: 2px solid #eff2f7;
+  padding: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #f9fbff;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 3px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: lightgray;
+  }
+
+  /* scrollbar handle */
+  &::-webkit-scrollbar-thumb {
+    background-color: #989b9e;
+  }
+}
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.headsic {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0px;
+  text-align: left;
+}
+.heads1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.heading12 {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.filtersDivab .MuiFormControlLabel-label.Mui-disabled {
+  color: #333333;
+}
+
+.line1 {
+  // border-top: 0.3px solid #d2d2d2;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  // margin-right: -20px;
+}
+
+.MuiSvgIcon-root {
+  height: 18px;
+}
+.checkbox-item .MuiTypography-body1 {
+  font-size: 16px;
+  color: #333333;
+}
+.counting {
+  font-size: 16px;
+  // margin-left: -10px;
+}
+
+.checkbox-item1 {
+  display: flex;
+  width: 230px;
+  flex-wrap: wrap;
+}
+
+.blueColor {
+  cursor: pointer;
+  border: 1px solid #0066f5;
+  color: #0066f5;
+  margin-right: 3px;
+  padding: 7px 5px 7px 5px;
+  margin-bottom: 5px;
+}
+
+.dummyColor {
+  cursor: pointer;
+  border: 1px solid black;
+  margin-right: 3px;
+  padding: 7px 5px 7px 5px;
+  margin-bottom: 5px;
+}
+
+.headDv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  .link {
+    color: #006dff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+}
+
+.countStyle {
+  font-size: 12px;
+  margin-left: -10px;
+  color: #6b6c6f;
+  font-weight: 600;
+}

@@ -1,0 +1,211 @@
+.point-content-wrapper-securitySpecialist1 {
+  display: flex;
+  justify-content: left;
+
+  min-height: 50px;
+}
+
+.point-content-wrapper2-securitySpecialist1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+
+.points-div-securitySpecialist1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vertical-line-securitySpecialist1 {
+  width: 2px;
+  height: 100%;
+  background: #eff2f7;
+}
+
+.outer-point-securitySpecialist1 {
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+  border-radius: 50%;
+  border: 2px solid #eff2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.inner-point-securitySpecialist1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #5cbd9d;
+}
+
+.point-content-securitySpecialist1 {
+  padding: 0 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.securitySpecialist1-main {
+  padding: 20px;
+  .objection-div {
+    margin-left: auto;
+  }
+
+  .objection {
+    text-transform: none;
+    padding: 5px 20px;
+  }
+
+  .helpful-div-securitySpecialist1 {
+    margin-bottom: 25px;
+  }
+
+  .securitySpecialist1-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .securitySpecialist1 {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .titleNumbersecuritySpecialist1 {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+}
+
+.ObjectionModal {
+  width: 80%;
+
+  .objection-modal-main {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+
+    .module-objection-heading {
+      display: flex;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e6e8eb;
+    }
+
+    .module-div {
+      background: #ffe277;
+      color: #ec6133;
+      font-size: 10px;
+      padding: 5px 10px;
+      height: 30px;
+      font-weight: bold;
+      border-radius: 4px;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .objection-list {
+      color: #0c152e;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .cross-objection {
+      margin-left: auto;
+    }
+
+    .one-top-wrapper {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .one {
+      background: #347a35;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      margin-right: 10px;
+    }
+
+    .one-heading {
+      color: #347a35;
+      font-weight: bold;
+    }
+
+    .objection-1-cards {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .objection-1-card {
+      width: 24%;
+    }
+
+    .rebuttals {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .rebuttal-card {
+      width: 49.5%;
+      margin-bottom: 10px;
+    }
+    .mindset-div-bottom {
+      border-bottom: 1px solid #e6e8eb;
+    }
+  }
+}
+
+.ObjectionCongratsModal {
+  width: 500px;
+  margin: auto 0;
+
+  .congrats-main {
+    background: #fff;
+    padding: 40px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .great-job {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}

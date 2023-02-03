@@ -1,0 +1,184 @@
+.internet2-main {
+  padding: 20px;
+
+  .helpful-div-mover {
+    margin-bottom: 25px;
+  }
+
+  .internet2-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .internet2 {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .titleNumberInternet {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .point-content-wrapper-internet2 {
+    display: flex;
+    justify-content: left;
+
+    min-height: 50px;
+
+    .inputDiv {
+      width: 48%;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      .MuiFormControl-root {
+        width: 100%;
+      }
+
+      .MuiFilledInput-root {
+        background-color: #ffffff;
+        border: 1px solid #3c7084;
+        border-radius: 8px;
+      }
+      .MuiFilledInput-underline:before,
+      .MuiFilledInput-underline:after {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .point-content-wrapper-internet2-script {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+    margin-bottom: 20px;
+  }
+  .helpful-div-mover {
+    margin-bottom: 25px;
+  }
+
+  .points-div-internet2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vertical-line-internet2 {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+  .vertical-line-intranet {
+    height: 100%;
+  }
+
+  .outer-point-internet2 {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-internet2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-internet2 {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+  }
+  .point-content-internet-margin {
+    margin-bottom: 15px;
+  }
+
+  .helpful-div-internet {
+    margin-bottom: 30px;
+  }
+  .internetProviderSpace {
+    padding: 0px !important;
+  }
+
+  .internetStep2FlexDiv {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    .providers-in-area {
+      width: 35%;
+      padding: 30px 0px 0px 23px;
+    }
+
+    .serviceCard {
+      width: 172px;
+      margin: 10px 20px 0px 0px;
+
+      .commonServiceCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #b7b8be;
+        border-radius: 4px;
+
+        .CommonCardImgDiv {
+          margin: 10px 0px 10px 0px;
+          height: 40px;
+          img {
+            height: 50px;
+          }
+        }
+        .CommonButtonDiv {
+          padding: 10px 0px 10px 0px;
+          button {
+            text-transform: none !important;
+            font-size: 13px !important;
+            padding: 5px 10px !important;
+            width: 100px !important;
+          }
+        }
+      }
+
+      @media (max-width: 1024px) {
+        width: 145px;
+        margin: 10px 20px 0px 20px;
+      }
+    }
+  }
+}
+
+.no-of-tv {
+  width: 60%;
+}

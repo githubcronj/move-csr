@@ -1,0 +1,31 @@
+.PopularServicesDiv {
+  width: 15%;
+  .PopularServicesCard {
+    width: 100%;
+
+    background: #ffffff;
+
+    box-shadow: 0px 2px 0px rgba(12, 21, 46, 0.07),
+      0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+      0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+    border-radius: 4px;
+    position: relative;
+    padding: 10px 10px 20px;
+    position: relative;
+    height: 160px;
+
+    .imagevalue {
+      width: 100%;
+      max-height: 110px;
+      padding: 10px 24px;
+    }
+    .checkBox {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+    }
+  }
+  .Selected {
+    border: 2px solid #408867;
+  }
+}

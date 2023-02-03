@@ -1,0 +1,49 @@
+// .table {
+//   margin-bottom: 0 !important;
+//   width: 100%;
+
+//   .thead {
+//     background: #EFF2F7;
+//   }
+//   .tableRow {
+//     border: 0.5px solid #F4F4F4;
+//     background: #ffffff;
+//     color: #6B6C6F;
+//     font-family: 'Lato';
+//     font-weight: bold;
+//     font-size: 13px;
+//     line-height: 16px;
+//   }
+// }
+
+.MuiTableCell-head {
+  background: transparent !important;
+  color: #6b6c6f !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+}
+
+.MuiTableHead-root {
+  background: #eff2f7;
+}
+
+.MuiTableBody-root {
+  .MuiTableRow-root {
+    // display: flex;
+    margin: 10px 0;
+    border: 0.5px solid #f4f4f4;
+    border-radius: 4px;
+    align-items: center;
+  }
+  .MuiTableCell-root {
+    border-bottom: none;
+    padding: 6px 16px;
+  }
+}
+
+.MuiTableFooter-root {
+  justify-content: center;
+  display: none !important;
+  padding: 20px 0;
+}

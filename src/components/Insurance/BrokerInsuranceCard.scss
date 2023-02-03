@@ -1,0 +1,41 @@
+.BrokerInsuranceCardDiv {
+  border: 1px solid #e6e8eb;
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nameImageDiv {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 120px;
+      height: 75px;
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 16px;
+      text-align: center;
+      color: #0c152e;
+      margin-left: 20px;
+    }
+  }
+
+  .phoneIconDiv {
+    display: flex;
+    align-items: center;
+
+    .phoneIcon {
+      color: #b7b8be;
+    }
+
+    .phone {
+      font-size: 13px;
+      line-height: 16px;
+    }
+  }
+}

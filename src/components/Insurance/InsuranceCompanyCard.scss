@@ -1,0 +1,73 @@
+.InsuranceCompanyDiv {
+  width: 30%;
+  // height: 202px;
+  // margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 10px;
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #eff2f7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  .CompanyImgDiv {
+    // border: 1px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    img {
+      width: 100%;
+    }
+  }
+  .CompanyName {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    color: #0c152e;
+    text-align: left;
+    margin-bottom: 20px;
+
+    .Mui-checked {
+      color: #75ba9f;
+    }
+    .Mui-checked + .MuiSwitch-track {
+      background-color: #75ba9f;
+    }
+  }
+  .EditBtnStyle {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    background: #ffffff;
+    font-size: 9px;
+    line-height: 12px;
+    border: 1px solid #eff2f7;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 10px;
+    outline-style: none !important;
+    border-radius: 2px;
+    .EditImg {
+      color: #dadada;
+      margin-right: 3px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

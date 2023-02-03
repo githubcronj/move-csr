@@ -1,0 +1,31 @@
+.statsTableDiv {
+  .statsTable {
+    width: 100%;
+    .tableHeadStats {
+      background: #eff2f7;
+      color: #6b6c6f;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 15px;
+      text-transform: capitalize;
+    }
+
+    th {
+      padding: 8px 11px;
+      border: 1px solid #e5e7ea;
+      font-family: Lato;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    td {
+      padding: 8px 11px;
+      border: 1px solid #e5e7ea;
+    }
+  }
+}
+
+.tableFont {
+  font-size: 11px;
+  line-height: 14px;
+}

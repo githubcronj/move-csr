@@ -1,0 +1,147 @@
+.table-component {
+  width: 92%;
+  margin: 20px;
+}
+.statsCardsAppointment {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 20px 30px 20px;
+}
+.dropDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .dropDownValue {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+
+    .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"]
+      .MuiAutocomplete-input:first-child {
+      font-weight: bold;
+    }
+    .MuiAutocomplete-root {
+      min-width: 250px;
+    }
+    // .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+    //   .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    //   padding-right: 30px;
+    // }
+    .sortbydropdown {
+      .MuiOutlinedInput-notchedOutline {
+        border: none;
+      }
+    }
+  }
+  .avg-customer-review {
+    font-size: 17px !important;
+  }
+}
+.topDropDown {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0px;
+  .avg-customer-review {
+    font-size: 24px !important;
+  }
+}
+.rightDiv {
+  display: flex;
+  align-items: center;
+}
+
+.statsCardsAppointment {
+  .AllStatisticsDiv {
+    width: 145px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+}
+
+.AppointmentFlexDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 25px;
+
+  .AppointmentFlexDiv2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+  }
+
+  .SearchBoxDiv {
+    // width: 34%;
+  }
+
+  .CustomerListTitle {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.appointment-buttons2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 20px 0;
+
+  .my-appointments {
+    width: 24%;
+    cursor: pointer;
+    background: #e6e8eb;
+    color: #333;
+    padding: 10px 0;
+  }
+  .my-leads {
+    width: 24%;
+    cursor: pointer;
+    background: #e6e8eb;
+    color: #333;
+    padding: 10px 0;
+  }
+  .all-leads {
+    width: 24%;
+    cursor: pointer;
+    background: #e6e8eb;
+    color: #333;
+    padding: 10px 0;
+  }
+
+  .my-appointments-active {
+    width: 24%;
+    cursor: pointer;
+    font-weight: bold;
+    background: #75ba9f;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .my-leads-active {
+    width: 24%;
+    cursor: pointer;
+    font-weight: bold;
+    background: #75ba9f;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .all-leads-active {
+    width: 24%;
+    cursor: pointer;
+    font-weight: bold;
+    background: #75ba9f;
+    color: #fff;
+    padding: 10px 0;
+  }
+}

@@ -33,7 +33,7 @@ function* fetchTodoSaga() {
   } catch (e) {
     yield put(
       fetchTodoFailure({
-        error: e.message,
+        error:  (e as Error).message,
       })
     );
   }

@@ -1,0 +1,204 @@
+.TabsButtonDivMain {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  // padding-bottom: 5px;
+  border-bottom: 1px solid #eff2f7;
+  overflow-x: auto;
+  margin-bottom: 5px;
+  z-index: -10;
+
+  .MuiTab-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Lato";
+  }
+
+  .MuiTab-labelIcon {
+    padding-top: 5px;
+    height: 30px;
+  }
+  .MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+    margin-right: 10px;
+  }
+
+  .MuiSvgIcon-root {
+    font-size: 1.2rem;
+  }
+  // .MuiTabScrollButton-root {
+  //   display: none;
+  // }
+  .MuiTabs-root {
+    // overflow-x: auto;
+    min-height: 40px;
+  }
+
+  .MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+    margin-bottom: 0px;
+  }
+
+  .MuiTab-textColorInherit {
+    opacity: 1;
+  }
+
+  .MuiTab-textColorInherit.Mui-selected,
+  .MuiTab-textColorInherit.selected {
+    color: #75ba9f;
+    background-color: #75ba9f;
+  }
+  .MuiTab-textColorInherit.completed {
+    color: #465b74;
+    background-color: #465b74;
+  }
+
+  .MuiTab-textColorInherit.skipped {
+    color: red;
+    background-color: red;
+  }
+
+  .MuiTab-textColorInherit.Mui-selected .MuiTab-wrapper,
+  .MuiTab-textColorInherit.selected .MuiTab-wrapper,
+  .MuiTab-textColorInherit.skipped .MuiTab-wrapper,
+  .MuiTab-textColorInherit.completed .MuiTab-wrapper {
+    color: #ffffff;
+  }
+
+  .MuiAppBar-colorDefault {
+    z-index: 1;
+  }
+  .MuiTabs-flexContainer {
+    background: #ffffff;
+  }
+
+  .MuiTabs-fixed {
+    // height: 66px;
+    background: #ffffff;
+  }
+
+  .MuiTab-labelIcon {
+    min-height: 10px;
+    border: 1px solid;
+    border-radius: 33px;
+    margin-right: 20px;
+  }
+  // .MuiTabs-flexContainer {
+  .MuiTabs-fixed {
+    overflow-x: auto !important;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+      height: 3px;
+      border-radius: 5px !important;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgb(246, 245, 245);
+    }
+
+    /* scrollbar handle */
+    &::-webkit-scrollbar-thumb {
+      background-color: #d8dadd;
+    }
+  }
+
+  // .ButtonDiv {
+  //   width: 13%;
+  //   min-width: fit-content;
+  //   margin-right: 20px;
+  //   margin-bottom: -1px;
+
+  //   .TabsButton {
+  //     width: 100% !important;
+  //     background-color: #ffffff !important;
+  //     color: #333333 !important;
+  //     // border: 1px solid #EFF2F7 !important;
+  //     text-transform: capitalize !important;
+
+  //     .MuiButton-endIcon {
+  //       color: #e6e8eb;
+  //     }
+  //   }
+
+  //   .TabsButton-active {
+  //     width: 100% !important;
+  //     // background-color: #465b74 !important;
+  //     // color: #ffffff !important;
+  //     // border: 1px solid #465b74 !important;
+  //     background-color: #ffffff !important;
+  //     color: #75ba9f !important;
+  //     border-bottom: 3px solid #75ba9f !important;
+  //     text-transform: capitalize !important;
+  //   }
+
+  //   .TabsButton-completed {
+  //     width: 100% !important;
+  //     // background-color: #75ba9f !important;
+  //     // color: #ffffff !important;
+  //     // border: 1px solid #75ba9f !important;
+  //     background-color: #ffffff !important;
+  //     color: #333333 !important;
+  //     text-transform: capitalize !important;
+  //   }
+  // }
+
+  // .icon {
+  //   color: #E6E8EB;
+  // }
+}
+
+.SkipModal {
+  background: #ffffff;
+  height: max-content;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  position: fixed;
+  width: 500px;
+
+  .SkipModalTitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .SkipModalSubTitle {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .inputDiv {
+    width: 100%;
+    margin-bottom: 30px;
+
+    .inputTitle {
+      font-size: 16px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .SkipModalButton {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    .followUpButton {
+      width: 48%;
+      border: 1px solid #465b74;
+      border-radius: 32px;
+    }
+    .confirmButton {
+      width: 48%;
+      // border: 1px solid #465b74;
+      background: #465b74 !important;
+      border-radius: 32px;
+    }
+  }
+}

@@ -1,0 +1,332 @@
+.summary1-first-card {
+  width: 100%;
+  margin-top: 20px;
+}
+.EmailModal {
+  width: 500px;
+  margin: auto 0;
+  position: fixed;
+  top: 30%;
+}
+.email-modal-main-card {
+  background: #edf7ee;
+  padding: 20px;
+  border-radius: 5px;
+}
+.finish-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .finish {
+    border-radius: 20px;
+    padding: 5px 25px;
+    border: 6px solid #fff;
+  }
+}
+
+.email-modal-inside-card {
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  margin: 20px 0;
+  box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+    0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+    0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+
+  .left-div-email {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .right-div-email {
+    width: 70%;
+  }
+  .sent-to {
+    color: #246f56;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .sent-to-name {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .sent-to-email {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+}
+.summary1-main {
+  padding: 20px 0;
+
+  .bold-highlight {
+    font-weight: bold;
+    padding: 10px 0;
+
+    .remarkDiv {
+      float: right;
+      display: flex;
+
+      .remarkText {
+        font-size: 13px;
+        font-weight: 500;
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .next-steps {
+    margin-bottom: 20px;
+  }
+
+  .remarks-div {
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    .remark-content {
+      .CustomTextArea {
+        width: 100%;
+        border: none;
+        margin-top: 10px;
+      }
+    }
+  }
+  .summaryButtonDiv {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    .summaryEditButton {
+      background: #465b74;
+      border-radius: 32px;
+      width: 150px;
+      padding: 5px;
+      color: #ffffff;
+      margin-right: 30px;
+      text-align: center;
+    }
+    .summaryCancleButton {
+      background: #ec6133;
+      border-radius: 32px;
+      width: 150px;
+      padding: 5px;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+
+  .remark {
+    color: #6b6c6f;
+    font-weight: 600;
+  }
+
+  .helpful-div-homePros {
+    margin-bottom: 25px;
+  }
+
+  .summary1-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .summary1 {
+    padding-right: 10px;
+    color: #0f3f2f;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .point-content-wrapper-summary1 {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+  }
+
+  .points-div-summary1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .point-content-summary1-title {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+  .point-content-summary1-para {
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+
+    .highlighted-text {
+      background: #ecf7fb;
+      border-radius: 2px;
+      font-weight: bold;
+      padding: 0 5px;
+    }
+  }
+
+  .vertical-line-summary1 {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point-summary1 {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-summary1 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-summary1 {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .confirmOrderButton {
+    text-align: left;
+    margin: 20px 0px 20px 50px;
+
+    .summaryEditButton {
+      border-radius: 30px;
+      padding: 6px 30px;
+      background-color: #5cbd9d !important;
+    }
+  }
+}
+
+.email-value {
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 3px;
+    border-radius: 5px !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: lightgray;
+  }
+
+  /* scrollbar handle */
+  &::-webkit-scrollbar-thumb {
+    background-color: #989b9e;
+  }
+}
+
+.OpenModalSummaryWarmTransfer {
+  width: 500px;
+  margin: auto 0;
+  position: fixed;
+  top: 11%;
+
+  .OpenModal-main {
+    background: #fff;
+    padding: 40px 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .scrollDiv {
+      max-height: 230px;
+      overflow-y: auto;
+    }
+  }
+
+  .OpenModal-job {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .order-confirmation-number {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+
+    .warmTransferMainDiv {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      border: 1px solid lightgray;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 15px 0;
+
+      .nameNumber {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        font-weight: bold;
+
+        .name {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+  .OrderSaveButton {
+    button {
+      width: 128px;
+      height: 40px;
+      border-radius: 32px !important;
+      //   background: #465b74 !important;
+      color: #ffffff !important;
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 16px;
+      text-transform: capitalize;
+      margin-right: 20px;
+    }
+    margin: 20px 0;
+  }
+
+  .warmTransferButton {
+    display: block;
+    width: 150px;
+    border-radius: 30px;
+    margin: 20px 0;
+  }
+
+  .WorkflowButtons {
+    .position1 {
+      position: fixed;
+      top: 88%;
+      left: 34%;
+    }
+  }
+}

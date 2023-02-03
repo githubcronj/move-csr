@@ -1,0 +1,187 @@
+.insurance2-main {
+  padding: 20px;
+
+  .insurance2-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .insurance2 {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .titleNumberInsurance {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .point-content-wrapper-insurance2 {
+    display: flex;
+    justify-content: left;
+
+    min-height: 50px;
+  }
+
+  .point-content-wrapper-insurance2-script {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+  }
+  .helpful-div-mover {
+    margin-bottom: 25px;
+  }
+
+  .points-div-insurance2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vertical-line-insurance2 {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point-insurance2 {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-insurance2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-insurance2 {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .helpful-div-insurance {
+    margin-bottom: 35px;
+  }
+
+  .insuranceMovingToFlexDiv {
+    display: flex;
+
+    .movingAddress {
+      font-size: 15px;
+      line-height: 16px;
+      font-weight: 400;
+      padding: 5px 0;
+    }
+
+    .movingTo {
+      font-size: 15px;
+      line-height: 16px;
+      font-weight: bold;
+      padding: 0 0 5px;
+      margin-right: 10px;
+    }
+  }
+
+  .insurance2ButtonDiv {
+    margin-top: 50px;
+    margin-left: 40px;
+    text-align: left;
+
+    .confirmButton {
+      background-color: #52bde6 !important;
+      color: #ffffff !important;
+      text-transform: capitalize;
+      margin-right: 20px;
+    }
+
+    .editButton {
+      color: #52bde6 !important;
+      background-color: #ffffff !important;
+      text-transform: capitalize;
+      margin-right: 20px;
+      border: 1px solid #52bde6;
+    }
+  }
+
+  .callBackSchedule {
+    text-align: left;
+    margin-left: 46px;
+    margin-top: 25px;
+
+    .scheduleText {
+      font-size: 24px;
+      line-height: 24px;
+      margin-bottom: 25px;
+      color: #333333;
+      font-weight: 600;
+    }
+
+    .flexDiv {
+      display: flex;
+      margin: 10px 0;
+
+      .flexTitleDiv {
+        font-size: 17px;
+        line-height: 24px;
+        color: #333333;
+        font-weight: bold;
+        width: 180px;
+      }
+
+      .flexDetailDiv {
+        font-size: 17px;
+        line-height: 24px;
+        color: #333333;
+      }
+    }
+  }
+  .buttonDiv {
+    margin: 20px 0 50px;
+    display: flex;
+    // padding-left: 45px;
+
+    .editOrderButton,
+    .cancleOrderButton {
+      border-radius: 30px;
+      padding: 10px 20px;
+    }
+
+    .cancleOrderButton {
+      margin-left: 30px;
+      background-color: #ec6133 !important;
+    }
+  }
+}

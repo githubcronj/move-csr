@@ -1,0 +1,26 @@
+.dashboardTableDiv {
+  .nameDiv {
+    cursor: pointer;
+  }
+  .dashboardTable {
+    width: 100%;
+    .tableHead {
+      background: #eff2f7;
+      color: #6b6c6f;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 26px;
+      text-transform: uppercase;
+    }
+
+    th,
+    td {
+      padding: 10px 0 10px 10px;
+      text-align: left;
+    }
+
+    // td {
+    //   padding: 10px 0;
+    // }
+  }
+}

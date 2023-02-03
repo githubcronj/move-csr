@@ -1,0 +1,173 @@
+.movers-card-main {
+  border-bottom: 2px solid #eff2f7;
+
+  .main-body-div {
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+
+    .tag-title-div {
+      width: 15%;
+    }
+    .valine {
+      width: 15%;
+    }
+    .valineStyle {
+      font-size: 15px;
+
+      font-weight: 400;
+      line-height: 16px;
+      font-family: Lato;
+    }
+
+    .phone-address-div {
+      width: 20%;
+      margin: auto 0;
+    }
+    .button-div {
+      width: 15%;
+      //   margin: auto 0;
+    }
+
+    .white-triangle {
+      background: #fff;
+      width: 30px;
+      height: 60px;
+      transform: rotate(45deg);
+    }
+
+    .recommended-tag {
+      color: #fff;
+      font-size: 14px;
+      height: 40px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      padding-left: 10px;
+    }
+
+    .logo-div {
+      width: 50%;
+      height: auto;
+      margin: auto;
+    }
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+    }
+
+    .best-for-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .grade-div {
+      text-align: center;
+      //   background: #f4ae33;
+      //   border-radius: 8px;
+      //   margin-bottom: 10px;
+      //   padding: 2px 8px;
+      color: black;
+    }
+
+    .ratings-div .MuiBox-root {
+      margin-bottom: 0px !important;
+    }
+
+    .phone-div,
+    .address-div {
+      display: flex;
+    }
+
+    .title-div {
+      font-size: 15px;
+
+      font-weight: 400;
+      line-height: 16px;
+      font-family: Lato;
+      text-align: left;
+    }
+    .trophy-heading {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 24px;
+    }
+    .trophy {
+      margin-right: 10px;
+    }
+
+    .rate {
+      font-family: Lato;
+      font-size: 15px;
+
+      font-weight: 400;
+      line-height: 16px;
+
+      text-align: left;
+      width: 10%;
+    }
+    .distance {
+      width: 12%;
+    }
+
+    .verified-reviews {
+      font-size: 13px;
+      text-decoration: underline;
+    }
+    .phone-icon .MuiSvgIcon-root,
+    .address-icon .MuiSvgIcon-root {
+      height: 15px;
+      width: 15px;
+      opacity: 0.8;
+    }
+
+    .phone-icon,
+    .address-icon {
+      padding-right: 5px;
+    }
+    .phone-number,
+    .address {
+      font-size: 14px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    .mover-card-button {
+      text-transform: none !important;
+      font-size: 13px !important;
+      padding: 5px 10px !important;
+      width: 160px !important;
+    }
+  }
+  .emptyClass {
+    width: 15%;
+  }
+
+  .name {
+    width: 15%;
+    text-align: center;
+  }
+  .ratewidth {
+    width: 10%;
+  }
+}
+.headChange {
+  background-color: #465b74;
+  border-radius: 0px;
+}
+.headHeading {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

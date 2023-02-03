@@ -1,0 +1,49 @@
+.ConciergeFlowPage {
+  .conciergeFlowHeading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0C152E;
+    text-align: left;
+  }
+
+  .conciergeImageDiv {
+    padding: 20px;
+    height: 40%;
+    width: 40%;
+ margin: 70px auto;
+
+    .conciergeImage{
+      max-width: 100%;
+    }
+  }
+
+  .component-div {
+    // min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .componetContent {
+      // max-height: 64vh;
+      // overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        width: 4px;
+        height: 3px;
+      }
+      
+      &::-webkit-scrollbar-track {
+        background: lightgray;
+      }
+      
+      /* scrollbar handle */
+      &::-webkit-scrollbar-thumb {
+        background-color:  #989b9e;
+      }
+      
+    }
+  }
+}

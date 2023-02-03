@@ -1,0 +1,32 @@
+.InputsMainDiv {
+  text-align: left;
+
+  .titleDiv {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .InputIconFlex-div {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    .iconDiv {
+      min-width: fit-content;
+      width: 45px;
+      display: flex;
+      justify-content: left;
+
+      img {
+        width: 60%;
+      }
+    }
+
+    .inputDiv {
+      width: 80%;
+    }
+  }
+}

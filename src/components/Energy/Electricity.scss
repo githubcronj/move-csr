@@ -1,0 +1,104 @@
+.electricity-card-main {
+  border: 2px solid #eab04e;
+  margin-top: 15px;
+
+  border-radius: 8px;
+
+  .main-body-div-electricity {
+    display: flex;
+    padding: 26px 37px 32px 37px;
+
+    .tag-title-div-electricity {
+      width: 20%;
+    }
+
+    .rating-reviews-div-electricity {
+      width: 20%;
+    }
+
+    .tag-title-div-electricity,
+    .rating-reviews-div-electricity {
+      margin: auto 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button-div {
+      width: 15%;
+      margin: auto 0;
+    }
+    .tag-div-elec {
+      width: 25%;
+      margin: auto 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo-div-electricity {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 8px;
+    }
+
+    .logo {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+    }
+
+    .title-div-electricity {
+      font-weight: 700;
+      font-family: Lato;
+      font-size: 15px;
+      margin: 0 auto;
+    }
+
+    .energy-card-button {
+      text-transform: none !important;
+      font-size: 13px !important;
+      padding: 5px 10px !important;
+      width: 100px !important;
+    }
+    .perKwhValue {
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .perKwh {
+      font-family: Lato;
+      font-size: 9px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 8px;
+      letter-spacing: 0.08em;
+      text-align: left;
+      .MuiSvgIcon-root {
+        width: 14px;
+      }
+    }
+    .contract {
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+    .margin-dollar {
+      margin-right: 2px;
+    }
+    .margin-dollar-left {
+      margin-left: 2px;
+    }
+  }
+}

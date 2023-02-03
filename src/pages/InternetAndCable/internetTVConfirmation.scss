@@ -1,0 +1,150 @@
+.discovery-main {
+  padding: 20px;
+
+  .highlight {
+    font-weight: bold;
+  }
+
+  .discovery-heading {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  .titleNumberInternet {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .discovery {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .helpful-div {
+    margin-left: 25px;
+    padding: 20px 0 40px 0;
+  }
+
+  .point-content-wrapper {
+    display: flex;
+    justify-content: left;
+    min-height: 70px;
+  }
+
+  .points-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vertical-line {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+  .provider-head {
+    width: 18%;
+  }
+
+  .point-content {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+
+    .internetFlexDiv {
+      display: flex;
+      justify-content: flex-start;
+      //   padding: 20px 0;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+
+      .serviceCard {
+        width: 145px;
+        margin: 10px 20px 10px 20px;
+
+        .commonServiceCard {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border: 1px solid #b7b8be;
+          border-radius: 4px;
+
+          .CommonCardImgDiv {
+            margin: 10px 0px 10px 0px;
+            height: 40px;
+          }
+          .CommonButtonDiv {
+            padding: 10px 0px 10px 0px;
+            button {
+              text-transform: none !important;
+              font-size: 13px !important;
+              padding: 5px 10px !important;
+              width: 100px !important;
+            }
+          }
+        }
+
+        // @media (max-width: 1024px) {
+        //   width: 30%;
+        //   margin-bottom: 20px;
+        // }
+      }
+    }
+  }
+
+  .price-wrapper {
+    display: flex;
+    .price-paid-value {
+      font-weight: 600;
+      margin: 0 10px;
+    }
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+}

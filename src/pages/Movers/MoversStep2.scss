@@ -1,0 +1,166 @@
+.mover2-main {
+  padding: 20px 0;
+  .helpful-div-mover {
+    margin-bottom: 25px;
+  }
+
+  .mover2-heading {
+    display: flex;
+    padding: 0 0 20px 0;
+    align-items: center;
+  }
+
+  .mover2 {
+    padding-right: 10px;
+    color: #0c152e;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .titleNumberMover {
+    display: flex;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+
+  .left-number {
+    width: 50%;
+    background: #ecf7fb;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .right-number {
+    width: 50%;
+    background: #6ebbe2;
+    color: #fff;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    padding: 2px 0;
+  }
+
+  .point-content-wrapper-mover2-script {
+    display: flex;
+    justify-content: left;
+    min-height: 50px;
+  }
+  .script-div {
+    // margin-top: 20px;
+  }
+  .point-content-wrapper-mover2 {
+    display: flex;
+    justify-content: left;
+  }
+
+  .points-div-mover2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vertical-line-mover2 {
+    width: 2px;
+    height: 100%;
+    background: #eff2f7;
+  }
+
+  .outer-point-mover2 {
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    border: 2px solid #eff2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .inner-point-mover2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cbd9d;
+  }
+
+  .point-content-mover2 {
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .InputflexDiv {
+    display: flex;
+    justify-content: space-between;
+
+    .inputDiv .MuiFormControl-root {
+      width: 100%;
+    }
+    // .inputDiv .MuiFilledInput-root {
+    //   background: none;
+    //   border: 1px solid #3c7084;
+    //   border-radius: 4px;
+    // }
+
+    .inputDiv .MuiFilledInput-underline:before,
+    .inputDiv .MuiFilledInput-underline:after {
+      border-bottom: none !important;
+    }
+
+    .leftDiv
+    // .rightDiv
+    {
+      width: 55%;
+      text-align: left;
+    }
+
+    // .rightDiv .inputMainDiv {
+    //   border-radius: 8px;
+    //   border: 1px solid #333333;
+    //   padding: 20px;
+    // }
+    .rightDiv {
+      width: 45%;
+
+      .inputMainDiv {
+        border: 1px solid #3c7084;
+        margin-top: 135px;
+        padding: 20px 0px;
+        border-radius: 4px;
+
+        .CustomTextArea {
+          width: 100%;
+          border: none;
+        }
+      }
+
+      .titleDiv {
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: bold;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+    }
+
+    .leftDiv .inputMainDiv {
+      padding: 20px 0px 20px 0;
+    }
+
+    .heading {
+      font-size: 17px;
+      line-height: 24px;
+      font-weight: bold;
+      margin: 25px 0;
+    }
+  }
+
+  .error {
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+}

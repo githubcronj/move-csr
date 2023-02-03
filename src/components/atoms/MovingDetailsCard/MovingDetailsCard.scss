@@ -1,0 +1,175 @@
+.movingDeatailsCard {
+  position: relative;
+  // width: 304px;
+  width: 96%;
+  background: #ffffff;
+
+  border-radius: 4px;
+  .horizontalLine {
+    height: 1px;
+    background: #eff2f7;
+    .centerButton {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      width: 132px;
+      height: 32px;
+      // left: 85px;
+      left: 30%;
+      top: -15px;
+      color: #ffffff;
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 9px;
+      line-height: 12px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: #465b74;
+      border-radius: 16px;
+    }
+    .ArrowIconStyle {
+      font-size: 22px;
+      padding-right: 5px;
+    }
+  }
+}
+
+.FromAddressDiv {
+  display: flex;
+  flex-direction: column;
+
+  .fromText {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 50px 5px 15px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #0c152e;
+
+    .EditBtnStyle {
+      width: 47px;
+      margin-right: 25px;
+      height: 16px;
+      padding: 3px 0;
+      font-size: 9px;
+      background: #f4ae33;
+      border-radius: 2px;
+      border: none;
+      color: #3e3c3c;
+      text-align: center;
+      text-transform: uppercase;
+      cursor: pointer;
+      .EditImg {
+        margin-left: 2px;
+        height: 10px;
+        width: fit-content;
+      }
+    }
+  }
+
+  .addressWrap {
+    display: flex;
+  }
+
+  .fromaddress {
+    width: 50%;
+    margin: 0px 0px 8px 15px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #0c152e;
+    margin-bottom: 30px;
+    // margin-right: 80px;
+    margin-right: 33%;
+    cursor: pointer;
+
+    @media (max-width: 1440px) {
+      margin-right: 29%;
+    }
+  }
+
+  .ImageWrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MapText {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 8px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #0c152e;
+    margin-top: 5px;
+  }
+  .line {
+    position: absolute;
+    width: 1px;
+    height: 108px;
+    right: 70px;
+    top: 0px;
+    bottom: 0px;
+    background: #eff2f7;
+  }
+  .line2 {
+    position: absolute;
+    width: 1px;
+    height: 108px;
+    right: 70px;
+    top: 109px;
+    bottom: 0px;
+    background: #eff2f7;
+  }
+
+  .autoCompleteDiv {
+    width: 90% !important;
+    z-index: 4000;
+    background: #fff;
+    opacity: 1 !important;
+    // margin-top: 10px;
+    position: absolute;
+    animation: popup 0.4s;
+
+    .MuiFormControl-root {
+      width: 100%;
+    }
+    .MuiFilledInput-root,
+    .MuiFilledInput-root:hover {
+      border: 1px solid #e0e0e0;
+      background-color: #ffffff;
+    }
+    .MuiFilledInput-input {
+      padding: 14px 12px 10px;
+    }
+  }
+  @keyframes popup {
+    0% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .autoCompleteDiv .autocomplete-dropdown-container {
+    width: 250px;
+    z-index: 4000;
+    box-shadow: 2px 6px 10px #e0e0e0;
+  }
+}

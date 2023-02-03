@@ -1,0 +1,71 @@
+.CustomInput {
+  width: 100%;
+
+  .MuiFilledInput-root {
+    background: #ffffff;
+    border: 1px solid #3c7084;
+    border-radius: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333333;
+  }
+
+  .Mui-error.MuiFilledInput-root {
+    background: #ffffff;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    color: #333333;
+  }
+
+  .MuiFilledInput-root.Mui-error:hover {
+    border: 1px solid red;
+  }
+
+  .MuiFilledInput-root:hover {
+    background: #ffffff;
+    border: 1px solid #eff2f7;
+  }
+
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #333333;
+  }
+
+  .MuiInputAdornment-root {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #333333;
+  }
+
+  .MuiFilledInput-underline:before,
+  .MuiFilledInput-underline:after {
+    border-bottom: none;
+  }
+  .MuiFilledInput-underline:hover:before,
+  .MuiFilledInput-underline:hover:after {
+    border-bottom: none;
+  }
+}

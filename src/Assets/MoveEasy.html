@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    function callPhoneNumber() {
+      var phone = document.getElementById("phone").innerHTML;
+      console.log("################ dial.phone", phone);
+
+      if (window.parent) {
+        window.parent.postMessage(
+          JSON.stringify({
+            flexfig: {
+              type: "flexfig.dial.phone",
+              data: {
+                phone: phone,
+              },
+            },
+          }),
+          "*"
+        );
+      }
+    }
+
+    function sendPhoneSms() {
+      var phone = document.getElementById("sms").innerHTML;
+      console.log("################ send.sms", phone);
+
+      if (window.parent) {
+        window.parent.postMessage(
+          JSON.stringify({
+            flexfig: {
+              type: "flexfig.send.sms",
+              data: {
+                phone: phone,
+              },
+            },
+          }),
+          "*"
+        );
+      }
+    }
+  </script>
+  <body>
+    <h1>Call phone:</h1>
+    <a href="javascript: void(0)" id="phone" onclick="callPhoneNumber()"
+      >+16781234567</a
+    >
+
+    <h1>Send sms:</h1>
+    <a href="javascript: void(0)" id="sms" onclick="sendPhoneSms()"
+      >+16781234567</a
+    >
+  </body>
+</html>

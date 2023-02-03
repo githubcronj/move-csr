@@ -1,0 +1,71 @@
+.small-card-main {
+  border: 2px solid #eff2f7;
+  border-radius: 8px;
+  padding: 20px 10px 20px 15px;
+
+  min-height: 200px;
+
+  @media (max-width: 1500px) {
+    min-height: 225px;
+  }
+
+  .main-body-small {
+    .logo-div-small {
+      width: 50%;
+      height: auto;
+      margin: auto;
+    }
+
+    .logo-small {
+      width: 100%;
+      height: 100%;
+    }
+
+    .title-small {
+      text-align: left;
+      font-weight: 700;
+      padding: 10px 0 20px 0;
+      font-size: 15px;
+      min-height: 80px;
+
+      @media (max-width: 1600px) {
+        font-size: 14px;
+      }
+    }
+
+    .phone-small {
+      display: flex;
+      align-items: center;
+    }
+    .phone-icon-small .MuiSvgIcon-root {
+      height: 15px;
+      width: 15px;
+      opacity: 0.6;
+    }
+
+    .phone-icon-small {
+      padding-right: 5px;
+    }
+    .phone-number-small {
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .phone-small {
+      display: flex;
+    }
+    .email-small {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 0;
+    }
+    .email-status {
+      padding: 0 10px;
+    }
+
+    .email-status-heading {
+      font-size: 14px;
+    }
+  }
+}

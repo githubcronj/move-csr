@@ -1,0 +1,55 @@
+.InsuranceDiscount {
+  width: 100%;
+  background: #002e62;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 16px 32px;
+  .InsuranceDiscountContent {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    font-family: Lato;
+    font-style: normal;
+    letter-spacing: 0em;
+
+    .InsuranceDCHeading {
+      font-size: 17px;
+
+      font-weight: 700;
+      line-height: 24px;
+
+      color: #ffffff;
+      padding-bottom: 8px;
+    }
+    .InsuranceDCSubHeading {
+      font-size: 15px;
+
+      font-weight: 400;
+      line-height: 16px;
+
+      text-align: left;
+      color: #ffffff;
+      padding-bottom: 16px;
+    }
+    .InsuranceDCButton {
+      button {
+        height: 40px !important;
+        width: 200px !important;
+
+        border-radius: 32px !important;
+        background: #ffffff !important;
+        color: #333333 !important;
+
+        font-size: 15px !important;
+
+        font-weight: 600 !important;
+        line-height: 16px !important;
+        text-transform: capitalize !important;
+        text-align: center;
+      }
+    }
+  }
+}

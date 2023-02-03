@@ -1,0 +1,73 @@
+.main-summary-card {
+  width: 100%;
+  box-shadow: 0px 2px 80px rgba(12, 21, 46, 0.07),
+    0px 0.446726px 17.869px rgba(12, 21, 46, 0.0417275),
+    0px 0.133002px 5.32008px rgba(12, 21, 46, 0.0282725);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+
+  .summary-name,
+  .summary-email,
+  .summary-amount-saved,
+  .summary-time-saved {
+    width: 25%;
+    border-right: 1px solid #eff2f7;
+    padding: 20px 10px 20px 25px;
+    text-align: left;
+  }
+
+  .summary-amount-saved {
+    width: 20%;
+    // padding: 20px 30px;
+    padding-left: 20px;
+  }
+  .summary-time-saved {
+    width: 20%;
+    border-right: none;
+    padding-right: 20px;
+  }
+
+  .name-heading,
+  .email-heading,
+  .amount-saved-heading,
+  .time-saved-heading {
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  .name-value {
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .time-saved-value,
+  .amount-saved-value {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4ae33;
+    padding: 2px 5px;
+    margin-top: 10px;
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .edit-text {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 5px;
+  }
+
+  .custom .MuiFilledInput-input {
+    padding: 10px 12px 10px;
+  }
+}

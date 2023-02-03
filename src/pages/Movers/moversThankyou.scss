@@ -1,0 +1,93 @@
+.main-body-thankyou {
+  .image-div-thankyou {
+    height: 100px;
+    width: 100px;
+    margin: 50px auto 20px auto;
+
+    img {
+      width: 100%;
+    }
+  }
+  .thankyou-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    opacity: 0.7;
+  }
+
+  .successfully-placed {
+    text-align: center;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+  .cancel-button {
+    padding: 30px 0 100px 0;
+  }
+  .button-thankyou {
+    text-transform: none;
+  }
+}
+
+.OrderSummaryDiv {
+  .OrderSummary {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 30px;
+  }
+
+  .SummaryTable {
+    .MuiTableHead-root {
+      background: #465b74;
+    }
+    .MuiTableCell-head {
+      color: #ffffff !important;
+      font-size: 12px !important;
+    }
+    .MuiTableFooter-root {
+      display: none !important;
+    }
+  }
+
+  .summaryButtonDiv {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    .summaryEditButton {
+      background: #465b74;
+      border-radius: 32px;
+      width: 150px;
+      padding: 5px;
+      color: #ffffff;
+      margin-right: 30px;
+      cursor: pointer;
+    }
+    .summaryCancleButton {
+      background: #ec6133;
+      border-radius: 32px;
+      width: 180px;
+      padding: 5px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  .cancleOrderButton {
+    background-color: #b7b8be !important;
+    border-radius: 30px;
+    padding: 6px 30px;
+  }
+}
+
+.confirmButton {
+  background: #ec6133 !important;
+  border-radius: 32px;
+  width: 180px;
+  padding: 5px;
+  color: #ffffff;
+  margin-left: 20px;
+}

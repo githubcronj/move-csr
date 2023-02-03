@@ -1,0 +1,84 @@
+.discovery-main{
+padding: 20px;
+
+.highlight{
+ font-weight: bold;
+}
+
+
+.discovery-heading{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.titleNumber {
+    color: #ffffff;
+    background: #5CBD9D;
+    padding: 1px 7px;
+    border-radius: 50%;
+}
+
+.discovery{
+    padding-right: 10px;
+    color: #0C152E;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.helpful-div{
+    margin-left: 25px;
+    padding: 20px 0 40px 0;
+}
+
+
+    .point-content-wrapper{
+     display: flex;
+     justify-content: left;
+min-height: 70px;
+    
+    
+  
+    }
+
+    .points-div{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    }
+
+    .vertical-line{
+        width: 2px;
+        height: 100%;
+        background: #EFF2F7;
+    }
+
+    .outer-point{
+       box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+       border-radius: 50%;
+       border: 2px solid #EFF2F7;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 5px;
+    }
+
+    .inner-point{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #5CBD9D;
+    }
+
+    .point-content{
+        padding: 0 20px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+       
+    }
+  
+}
