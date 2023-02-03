@@ -1,0 +1,53 @@
+.mainRoutes {
+    padding-top: 145px;
+    margin: 0 auto;
+    max-width: 1680px;
+    min-width: 978px;
+
+    @media (max-width: 1920px) {
+        max-width: 1920px;
+    }
+    @media (max-width: 1680px) {
+        max-width: 1680px;
+    }
+    @media (max-width: 1536px) {
+        max-width: 1536px;
+    }
+    @media (max-width: 1440px) {
+        max-width: 1440px;
+    }
+
+    @media (max-width: 768px) {
+        max-width: 768px;
+        min-width: 425px;
+    }
+    @media (max-width: 425px) {
+        padding-top: 60px;
+        max-width: 425px;
+        min-width: 320px;
+    }
+}
+
+.mainRoutesLanding {
+    // padding-top: 180px;
+    // padding-top: 67px !important;
+    margin: 0 auto;
+    max-width: 1680px;
+
+    @media (max-width: 1920px) {
+        max-width: 1920px;
+    }
+}
+
+.landingPageRoutes {
+    padding: 0;
+}
+
+.loginPage {
+    padding-top: 70px !important;
+    max-width: unset !important;
+    margin: unset !important;
+    @media (max-width: 600px) {
+        padding-top: 60px !important;
+    }
+}
